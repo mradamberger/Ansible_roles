@@ -1,0 +1,10 @@
+---
+- name: Install packages
+  package:
+    name:
+      - unzip
+      - net-tools
+    state: present
+
+
+# tasks file for panda
