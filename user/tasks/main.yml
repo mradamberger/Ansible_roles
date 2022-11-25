@@ -2,6 +2,7 @@
 - name: create group
   group:
     name: panda
+    shell: /usr/bin/bash
     state: present
 
 - name: create user
