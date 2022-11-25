@@ -1,13 +1,13 @@
 ---
 - name: create group
   group:
-    name: panda
-    shell: /usr/bin/bash
+    name: pandz
     state: present
 
 - name: create user
   user:
     name: panda
+    shell: /usr/bin/bash
     groups:
       - panda
       - sudo
