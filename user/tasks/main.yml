@@ -1,7 +1,7 @@
 ---
 - name: create group
   group:
-    name: pandz
+    name: panda
     state: present
 
 - name: create user
