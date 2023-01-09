@@ -1,0 +1,4 @@
+deployment_path: "~/Infrastructure"
+git_repository: "https://github.com/mradamberger/Infrastructure"
+git_branch: "main"
+
